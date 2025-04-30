@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard - FitZone Fitness Center</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">FitZone Admin</h1>
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-gray-200">Home</a>
+        <a href="admin.html" class="hover:text-gray-200">Dashboard</a>
+        <a href="classes.html" class="hover:text-gray-200">Classes</a>
+        <a href="trainers.html" class="hover:text-gray-200">Trainers</a>
+        <a href="membership.html" class="hover:text-gray-200">Membership</a>
+        <a href="blog.html" class="hover:text-gray-200">Blog</a>
+        <a href="contact.html" class="hover:text-gray-200">Contact</a>
+        <a href="login.html" class="hover:text-gray-200">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Admin Dashboard -->
+  <section class="py-16 bg-gray-100">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-blue-600 mb-8">Admin Dashboard</h2>
+      <p class="text-xl text-gray-600 mb-10">Manage the FitZone Fitness Center operations. Here you can view member details, appointments, and handle customer inquiries.</p>
+
+      <!-- Admin Options -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <!-- Members Management -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition ease-in-out">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Manage Members</h3>
+          <p class="text-gray-700">View, add, or remove members. Manage their membership status and details.</p>
+          <a href="members.html" class="block mt-4 text-blue-600 hover:text-blue-800">Go to Members</a>
+        </div>
+
+        <!-- Appointments Management -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition ease-in-out">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Manage Appointments</h3>
+          <p class="text-gray-700">View and manage customer appointments, including personal training sessions and group classes.</p>
+          <a href="appointments.html" class="block mt-4 text-blue-600 hover:text-blue-800">Go to Appointments</a>
+        </div>
+
+        <!-- Inquiries Management -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition ease-in-out">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Manage Inquiries</h3>
+          <p class="text-gray-700">Respond to customer inquiries and feedback. Stay connected with your customers.</p>
+          <a href="inquiries.html" class="block mt-4 text-blue-600 hover:text-blue-800">Go to Inquiries</a>
+        </div>
+
+        <!-- Trainers Management -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition ease-in-out">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Manage Trainers</h3>
+          <p class="text-gray-700">View trainer profiles, manage their schedules, and update their availability.</p>
+          <a href="trainers.html" class="block mt-4 text-blue-600 hover:text-blue-800">Go to Trainers</a>
+        </div>
+
+        <!-- Membership Plans -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition ease-in-out">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Manage Membership Plans</h3>
+          <p class="text-gray-700">View, edit, and create new membership plans. Manage pricing and benefits.</p>
+          <a href="membership.html" class="block mt-4 text-blue-600 hover:text-blue-800">Go to Membership Plans</a>
+        </div>
+
+        <!-- Website Settings -->
+        <div class="bg-white p-6 rounded-lg shadow-md hover:bg-gray-50 transition ease-in-out">
+          <h3 class="text-2xl font-semibold text-blue-600 mb-4">Website Settings</h3>
+          <p class="text-gray-700">Edit website content, update images, and adjust settings for better user experience.</p>
+          <a href="settings.html" class="block mt-4 text-blue-600 hover:text-blue-800">Go to Settings</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2025 FitZone Fitness Center. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="assets/script.js"></script>
+</body>
+</html>

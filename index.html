@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to FitZone Fitness Center</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">FitZone</h1>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-button md:hidden">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      
+      <nav class="space-x-6 mobile-menu">
+        <a href="index.html" class="hover:text-gray-200">Home</a>
+        <a href="about.html" class="hover:text-gray-200">About Us</a>
+        <a href="services.html" class="hover:text-gray-200">Services</a>
+        <a href="classes.html" class="hover:text-gray-200">Classes</a>
+        <a href="blog.html" class="hover:text-gray-200">Blog</a>
+        <a href="contact.html" class="hover:text-gray-200">Contact</a>
+        <a href="login.html" class="hover:text-gray-200">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section relative bg-blue-600 text-white py-32">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Welcome to FitZone Fitness Center</h2>
+      <p class="text-xl mb-6">Your journey to fitness starts here. Join us to achieve your health and wellness goals!</p>
+      <a href="classes.html" class="btn bg-yellow-500 text-black py-2 px-4 rounded-lg text-lg hover:bg-yellow-400">
+        Explore Our Classes
+      </a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-blue-600 mb-8">Our Services</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- Service 1: Personal Training -->
+        <div class="service-card bg-white p-6 rounded-lg shadow-lg">
+          <img src="assets/images/personal-training.jpg" alt="Personal Training" class="w-full h-48 object-cover rounded-t-lg mb-4" />
+          <h4 class="text-xl font-semibold text-blue-600 mb-4">Personal Training</h4>
+          <p class="text-gray-700 mb-4">Get personalized fitness programs designed to meet your goals. Work one-on-one with certified trainers.</p>
+          <a href="services.html" class="text-blue-600 hover:text-blue-800">Learn More</a>
+        </div>
+        
+        <!-- Service 2: Group Classes -->
+        <div class="service-card bg-white p-6 rounded-lg shadow-lg">
+          <img src="assets/images/group-classes.jpg" alt="Group Classes" class="w-full h-48 object-cover rounded-t-lg mb-4" />
+          <h4 class="text-xl font-semibold text-blue-600 mb-4">Group Classes</h4>
+          <p class="text-gray-700 mb-4">Join our fun and engaging group workouts. From yoga to strength training, we have something for everyone!</p>
+          <a href="classes.html" class="text-blue-600 hover:text-blue-800">Explore Classes</a>
+        </div>
+
+        <!-- Service 3: Nutrition Counseling -->
+        <div class="service-card bg-white p-6 rounded-lg shadow-lg">
+          <img src="assets/images/nutrition.jpg" alt="Nutrition Counseling" class="w-full h-48 object-cover rounded-t-lg mb-4" />
+          <h4 class="text-xl font-semibold text-blue-600 mb-4">Nutrition Counseling</h4>
+          <p class="text-gray-700 mb-4">Work with our expert nutritionists to develop meal plans that fuel your fitness journey.</p>
+          <a href="services.html" class="text-blue-600 hover:text-blue-800">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center text-blue-600 mb-8">What Our Members Say</h3>
+      <div class="testimonials-container">
+        <!-- Testimonial Navigation Buttons -->
+        <button class="testimonial-prev absolute left-4 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white p-2 rounded-full">&lt;</button>
+        <button class="testimonial-next absolute right-4 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white p-2 rounded-full">&gt;</button>
+        
+        <!-- Testimonials -->
+        <div class="flex justify-center space-x-12">
+          <div class="testimonial-card bg-white p-6 rounded-lg shadow-lg w-80">
+            <p class="text-gray-700 italic mb-4">"FitZone has transformed my life. The trainers are supportive and the classes are always challenging!"</p>
+            <h5 class="font-semibold text-blue-600">Sarah Williams</h5>
+            <p class="text-gray-600">Member since 2022</p>
+          </div>
+
+          <div class="testimonial-card bg-white p-6 rounded-lg shadow-lg w-80">
+            <p class="text-gray-700 italic mb-4">"I love the group classes! The energy and camaraderie keep me coming back every week."</p>
+            <h5 class="font-semibold text-blue-600">Mark Thompson</h5>
+            <p class="text-gray-600">Member since 2021</p>
+          </div>
+          
+          <div class="testimonial-card bg-white p-6 rounded-lg shadow-lg w-80">
+            <p class="text-gray-700 italic mb-4">"The nutrition counseling program has been a game-changer for me. I've learned so much about fueling my body properly."</p>
+            <h5 class="font-semibold text-blue-600">James Rodriguez</h5>
+            <p class="text-gray-600">Member since 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Promotion Section with Countdown -->
+  <section class="bg-blue-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-4">Special Membership Offer</h3>
+      <p class="text-xl mb-6">Join now and get 20% off your first three months!</p>
+      <div id="promotion-countdown" class="mb-6"></div>
+      <a href="signup.html" class="btn bg-yellow-500 text-black py-2 px-6 rounded-lg text-lg hover:bg-yellow-400">
+        Sign Up Today
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <p>&copy; 2025 FitZone Fitness Center. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/scripts.js"></script>
+</body>
+</html>
